@@ -39,6 +39,7 @@ A default lifecycle for projects of any size. Scale it down for solo prototypes 
 
 ### Testing
 Follow the test pyramid: many fast unit tests, fewer integration tests, a handful of end-to-end tests on critical paths.
+- Build features test-first in red-green-refactor cycles, running tests, type check, and lint after every change (see the `tdd` skill).
 - Every bug fix starts with a failing test that reproduces it.
 - Tests are deterministic: no reliance on wall-clock time, network, or ordering without control.
 - Track coverage as a signal, not a target; aim for meaningful coverage of business logic.
@@ -81,4 +82,5 @@ Every project repo should have: `README.md` (what, setup, run, test), `CONTRIBUT
 - `references/adr-template.md`: Architecture Decision Record template.
 
 ## Changelog
+- 2026-10-02: Point to the `tdd` skill for test-first development.
 - 2026-09-28: Initial version.

@@ -31,6 +31,7 @@ Break a PRD into independently-grabbable issues using vertical slices (tracer bu
 ## Rules
 
 - One issue fits in one PR, about a day or two of work. Split anything larger.
+- Write acceptance criteria so each one can become a test; whoever picks up the issue builds it test-first with the `tdd` skill.
 - Each issue stands alone: restate the context it needs from the PRD instead of saying "see PRD", and name the relevant files or modules found in the codebase.
 - Each issue has testable acceptance criteria and references the PRD requirement IDs (R1, R2, ...).
 - Write titles as outcomes, verb first: "Let users export reports as CSV", not "CSV stuff".
@@ -81,5 +82,6 @@ PRD: ../../<feature-name>.md
 ```
 
 ## Changelog
+- 2026-10-02: Acceptance criteria written to drive the `tdd` skill.
 - 2026-10-02: Issues are independently-grabbable tracer-bullet slices, written as one local markdown file each with an index.
 - 2026-10-02: Initial version.

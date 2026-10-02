@@ -12,6 +12,7 @@ Reusable skills for AI coding tools and agents (Claude Code, the Claude Agent SD
 | Planning | [`grill-me`](grill-me/SKILL.md) | Stress-testing a plan or design by being interviewed one question at a time |
 | Planning | [`write-a-prd`](write-a-prd/SKILL.md) | Turning an idea into a product requirements document someone can build from |
 | Planning | [`prd-to-issues`](prd-to-issues/SKILL.md) | Breaking a PRD into small, ordered issues that each ship a working slice |
+| SDLC | [`tdd`](tdd/SKILL.md) | Implementing an issue or bug fix test-first, with tests, types, and lint as the feedback loop |
 
 ## Layout
 
